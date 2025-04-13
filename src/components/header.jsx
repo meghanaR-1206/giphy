@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { HiEllipsisVertical, HiMiniBars3BottomRight, HiOutlineHeart } from 'react-icons/hi2';
 import '../App.css';
-import { GifState } from '../context/Gif.context';
+import { GifState } from '../context/Gif_context';
 import Gif_search from './Gif_search';
 
 const Header = () => {

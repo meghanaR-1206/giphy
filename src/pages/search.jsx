@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams,Link } from "react-router-dom";
-import { GifState } from "../context/Gif.context";
+import { GifState } from "../context/Gif_context";
 
 const Search = () => {
   const [searchResults, setSearchResults] = useState([]);
