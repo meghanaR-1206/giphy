@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { GifState } from '../context/Gif.context';
-import Gif from '../components/gif';
-import FilterGif from '../components/filter';
+import Gif from '../components/Gif';
+import FilterGif from '../components/Filter';
 
 const Home = () => {
     const { gf } = GifState();
