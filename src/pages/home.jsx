@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { GifState } from '../context/gif.context';
+import { GifState } from '../context/Gif.context';
 import Gif from '../components/gif';
 import FilterGif from '../components/filter';
 
